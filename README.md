@@ -94,7 +94,7 @@ To use **Libft**, include its header file in your C program:
 ### Example Usage
 
 To demonstrate how to use some of the functions implemented in **Libft**, you can write a simple program like the following:
-
+```c
 #include "libft.h"
 #include <stdio.h>
 
@@ -112,11 +112,11 @@ int main(void)
 
     return 0;
 }
-
+```
 Compile and run this program with:
 
-gcc -o test_program test_program.c -L. -lft
-./test_program
+`gcc -o test_program test_program.c -L. -lft`
+`./test_program`
 
 ---
 
@@ -125,18 +125,18 @@ gcc -o test_program test_program.c -L. -lft
 To build the **Libft** library, follow these steps:
 
 1. Run the `make` command in the project directory:
-    make
+    `make`
 
 2. This will create a static library file named `libft.a`.
 
 3. To clean up the object files, use:
-    make clean
+    `make clean`
 
 4. To remove all compiled files, including `libft.a`, use:
-    make fclean
+    `make fclean`
 
 5. To recompile everything from scratch, use:
-    make re
+    `make re`
 
 ---
 
@@ -145,10 +145,10 @@ To build the **Libft** library, follow these steps:
 To integrate **Libft** into your project:
 
 1. Include the `libft.h` header file in your source files:
-    #include "libft.h"
+    `#include "libft.h"`
 
 2. Link the `libft.a` static library during compilation:
-    gcc -o your_program your_program.c -L. -lft
+    `gcc -o your_program your_program.c -L. -lft`
 
 3. Ensure the `libft.a` file is in the same directory or adjust the `-L` path accordingly.
 
@@ -158,6 +158,7 @@ To integrate **Libft** into your project:
 
 You can write your own test files to verify the behavior of the library functions. For example:
 
+```c
 #include "libft.h"
 #include <stdio.h>
 
@@ -176,6 +177,7 @@ int main(void)
 
     return 0;
 }
+```
 
 Compile and run this file as described in the [Compilation](#compilation) section.
 
