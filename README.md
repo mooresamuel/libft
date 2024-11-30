@@ -125,18 +125,22 @@ Compile and run this program with:
 To build the **Libft** library, follow these steps:
 
 1. Run the `make` command in the project directory:
-   ```make```
+   ```
+   make```
 
-2. This will create a static library file named `libft.a`.
+3. This will create a static library file named `libft.a`.
 
-3. To clean up the object files, use:
-    ```make clean```
+4. To clean up the object files, use:
+    ```
+   make clean```
 
-4. To remove all compiled files, including `libft.a`, use:
-    ```make fclean```
+6. To remove all compiled files, including `libft.a`, use:
+    ```
+   make fclean```
 
-5. To recompile everything from scratch, use:
-    ```make re```
+8. To recompile everything from scratch, use:
+    ```
+   make re```
 
 ---
 
@@ -145,12 +149,14 @@ To build the **Libft** library, follow these steps:
 To integrate **Libft** into your project:
 
 1. Include the `libft.h` header file in your source files:
-    ```#include "libft.h"```
+    ```
+   #include "libft.h"```
 
-2. Link the `libft.a` static library during compilation:
-   ```gcc -o your_program your_program.c -L. -lft```
+3. Link the `libft.a` static library during compilation:
+   ```
+   gcc -o your_program your_program.c -L. -lft```
 
-3. Ensure the `libft.a` file is in the same directory or adjust the `-L` path accordingly.
+5. Ensure the `libft.a` file is in the same directory or adjust the `-L` path accordingly.
 
 ---
 
