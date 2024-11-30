@@ -115,8 +115,12 @@ int main(void)
 ```
 Compile and run this program with:
 
-```gcc -o test_program test_program.c -L. -lft```
-``./test_program``
+`
+gcc -o test_program test_program.c -L. -lft
+`
+`
+./test_program
+`
 
 ---
 
