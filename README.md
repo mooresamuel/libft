@@ -203,4 +203,4 @@ This project is part of the 42 curriculum and is intended for educational purpos
 
 ---
 
-**Happy coding and good luck with your 42 journey! 🚀**
+**Happy coding! 🚀**
